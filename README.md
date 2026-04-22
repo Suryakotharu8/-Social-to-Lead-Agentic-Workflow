@@ -56,7 +56,7 @@ Open your browser at: **http://localhost:8501**
 
 ---
 
-## 🏗️ Architecture (~200 words)
+## Architecture 
 
 This agent is built on **LangGraph**, a stateful graph framework from LangChain. LangGraph was chosen over AutoGen because it gives explicit, deterministic control over state transitions — critical when orchestrating a multi-step lead collection flow where premature tool calls must be avoided.
 
